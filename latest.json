@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "published_at": "2026-03-30",
+  "headline": "Initial packaged release (1.0.0)",
+  "download_url": "https://drive.google.com/drive/folders/1hCqW3QpymhAP3J0IOuJOu3gfbGxcNQZS?usp=drive_link",
+  "notes": [
+    "Shipped the unified NiceGUI workspace for RSU, OBU, SCMS, TIM, and UTA tooling.",
+    "Added versioned Windows packaging so field builds can be tracked by release number.",
+    "Introduced in-app release history and update-check plumbing for future executable rollouts."
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "published_at": "2026-03-30",
+      "title": "Initial packaged release",
+      "notes": [
+        "Shipped the unified NiceGUI workspace for RSU, OBU, SCMS, TIM, and UTA tooling.",
+        "Added versioned Windows packaging so field builds can be tracked by release number.",
+        "Introduced in-app release history and update-check plumbing for future executable rollouts."
+      ]
+    }
+  ]
+}
