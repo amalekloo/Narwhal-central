@@ -1,14 +1,19 @@
 {
-  "version": "1.0.1",
-  "published_at": "2026-03-31",
-  "headline": "Sidebar changelog and update controls (1.0.1)",
+  "version": "1.0.2",
+  "published_at": "2026-04-02",
+  "headline": "SCMS tag and forward-table fixes (1.0.2)",
   "download_url": "https://drive.google.com/drive/folders/1hCqW3QpymhAP3J0IOuJOu3gfbGxcNQZS?usp=drive_link",
-  "notes": [
-    "Moved changelog and update actions into the shared left sidebar so they are available from every module.",
-    "Kept release metadata in a canonical catalog with semantic-version comparison and manifest generation.",
-    "Version bump now updates project metadata and lockfile entries from the same release command."
-  ],
   "changelog": [
+    {
+      "version": "1.0.2",
+      "published_at": "2026-04-02",
+      "title": "SCMS tag and forward-table fixes",
+      "notes": [
+        "Fixed SCMS tag to show SignalID instead of ITSid.",
+        "Fixed the forwarder table not assigning the SCM IP to the first two entries for BSM and SRM.",
+        "Slight UI changes to the config panel."
+      ]
+    },
     {
       "version": "1.0.1",
       "published_at": "2026-03-31",
