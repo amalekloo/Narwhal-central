@@ -1,9 +1,19 @@
 {
-  "version": "1.0.2",
-  "published_at": "2026-04-02",
-  "headline": "SCMS tag and forward-table fixes (1.0.2)",
+  "version": "1.0.3",
+  "published_at": "2026-04-14",
+  "headline": "SCMS health and serial handling updates (1.0.3)",
   "download_url": "https://drive.google.com/drive/folders/1hCqW3QpymhAP3J0IOuJOu3gfbGxcNQZS?usp=drive_link",
   "changelog": [
+    {
+      "version": "1.0.3",
+      "published_at": "2026-04-14",
+      "title": "SCMS health and serial handling updates",
+      "notes": [
+        "Updated device health checks to use both enrollment identifiers when fetching SCMS data.",
+        "Fixed serial number enforcement and the agent toggle notification behavior.",
+        "Refined SCMS tag updates to include the Commsignia serial number format."
+      ]
+    },
     {
       "version": "1.0.2",
       "published_at": "2026-04-02",
