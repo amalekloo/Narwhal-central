@@ -1,0 +1,49 @@
+Version 1.0.4 - 2026-04-21
+
+Added
+- Built-in Windows SNMP support for SCM workflows.
+
+Removed
+- The need to install SNMP tools separately on Windows machines.
+
+Fixed
+- SCM SNMP checks in packaged Windows builds.
+
+
+Version 1.0.3 - 2026-04-14
+
+Changed
+- Device health checks now use both enrollment identifiers when fetching SCMS data.
+- SCMS tag updates now include the Commsignia serial number format.
+
+Fixed
+- Serial number enforcement.
+- Agent toggle notification behavior.
+
+
+Version 1.0.2 - 2026-04-02
+
+Changed
+- Minor UI changes in the config panel.
+
+Fixed
+- SCMS tag now shows SignalID instead of ITSid.
+- Forwarder table now assigns the SCM IP to the first two entries for BSM and SRM.
+
+
+Version 1.0.1 - 2026-03-31
+
+Added
+- Changelog and update actions in the shared left sidebar across every module.
+- Canonical release metadata catalog with semantic-version comparison and manifest generation.
+
+Changed
+- Version bump now updates project metadata and lockfile entries from the same release command.
+
+
+Version 1.0.0 - 2026-03-30
+
+Added
+- Unified NiceGUI workspace for RSU, OBU, SCMS, TIM, and UTA tooling.
+- Versioned Windows packaging for tracked field builds.
+- In-app release history and update-check support for future executable rollouts.
