@@ -1,9 +1,19 @@
 {
-  "version": "1.0.5",
-  "published_at": "2026-05-11",
-  "headline": "New SPaT source automation mechanism added to SCM config (1.0.5)",
+  "version": "1.0.6",
+  "published_at": "2026-05-22",
+  "headline": "Forwarder verification control and SPaT tooling updates (1.0.6)",
   "download_url": "https://drive.google.com/drive/folders/1hCqW3QpymhAP3J0IOuJOu3gfbGxcNQZS?usp=drive_link",
   "changelog": [
+    {
+      "version": "1.0.6",
+      "published_at": "2026-05-22",
+      "title": "Forwarder verification control and SPaT tooling updates",
+      "notes": [
+        "Added new SCM SPaT source configurator tooling and controller database templates.",
+        "Added conflict-mapping and validation support for the SCM SPaT workflow.",
+        "Updated the forwarders page with a force verification option and refreshed layout."
+      ]
+    },
     {
       "version": "1.0.5",
       "published_at": "2026-05-11",

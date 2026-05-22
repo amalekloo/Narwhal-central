@@ -1,3 +1,12 @@
+Version 1.0.6 - 2026-05-22
+
+Added
+- New SCM SPaT source configurator tooling and controller database templates.
+
+Changed
+- Forwarders now include a force verification option and an updated layout.
+
+
 Version 1.0.4 - 2026-04-21
 
 Added
